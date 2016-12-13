@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4934A2431E00496C00F37312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2421E00496C00F37312 /* AppDelegate.swift */; };
+		4934A2451E00496C00F37312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2441E00496C00F37312 /* ViewController.swift */; };
+		4934A2481E00496C00F37312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4934A2461E00496C00F37312 /* Main.storyboard */; };
+		4934A24A1E00496C00F37312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4934A2491E00496C00F37312 /* Assets.xcassets */; };
+		4934A24D1E00496C00F37312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4934A24B1E00496C00F37312 /* LaunchScreen.storyboard */; };
+		4934A2581E00496D00F37312 /* kalimbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2571E00496D00F37312 /* kalimbaTests.swift */; };
+		4934A2631E00496D00F37312 /* kalimbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2621E00496D00F37312 /* kalimbaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4934A2541E00496D00F37312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4934A2371E00496C00F37312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4934A23E1E00496C00F37312;
+			remoteInfo = kalimba;
+		};
+		4934A25F1E00496D00F37312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4934A2371E00496C00F37312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4934A23E1E00496C00F37312;
+			remoteInfo = kalimba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4934A23F1E00496C00F37312 /* kalimba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kalimba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4934A2421E00496C00F37312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4934A2441E00496C00F37312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4934A2471E00496C00F37312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4934A2491E00496C00F37312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4934A24C1E00496C00F37312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4934A24E1E00496C00F37312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4934A2531E00496D00F37312 /* kalimbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalimbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4934A2571E00496D00F37312 /* kalimbaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalimbaTests.swift; sourceTree = "<group>"; };
+		4934A2591E00496D00F37312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4934A25E1E00496D00F37312 /* kalimbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalimbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4934A2621E00496D00F37312 /* kalimbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalimbaUITests.swift; sourceTree = "<group>"; };
+		4934A2641E00496D00F37312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4934A23C1E00496C00F37312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934A2501E00496D00F37312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934A25B1E00496D00F37312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4934A2361E00496C00F37312 = {
+			isa = PBXGroup;
+			children = (
+				4934A2411E00496C00F37312 /* kalimba */,
+				4934A2561E00496D00F37312 /* kalimbaTests */,
+				4934A2611E00496D00F37312 /* kalimbaUITests */,
+				4934A2401E00496C00F37312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4934A2401E00496C00F37312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4934A23F1E00496C00F37312 /* kalimba.app */,
+				4934A2531E00496D00F37312 /* kalimbaTests.xctest */,
+				4934A25E1E00496D00F37312 /* kalimbaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4934A2411E00496C00F37312 /* kalimba */ = {
+			isa = PBXGroup;
+			children = (
+				4934A2421E00496C00F37312 /* AppDelegate.swift */,
+				4934A2441E00496C00F37312 /* ViewController.swift */,
+				4934A2461E00496C00F37312 /* Main.storyboard */,
+				4934A2491E00496C00F37312 /* Assets.xcassets */,
+				4934A24B1E00496C00F37312 /* LaunchScreen.storyboard */,
+				4934A24E1E00496C00F37312 /* Info.plist */,
+			);
+			path = kalimba;
+			sourceTree = "<group>";
+		};
+		4934A2561E00496D00F37312 /* kalimbaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4934A2571E00496D00F37312 /* kalimbaTests.swift */,
+				4934A2591E00496D00F37312 /* Info.plist */,
+			);
+			path = kalimbaTests;
+			sourceTree = "<group>";
+		};
+		4934A2611E00496D00F37312 /* kalimbaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4934A2621E00496D00F37312 /* kalimbaUITests.swift */,
+				4934A2641E00496D00F37312 /* Info.plist */,
+			);
+			path = kalimbaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4934A23E1E00496C00F37312 /* kalimba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4934A2671E00496D00F37312 /* Build configuration list for PBXNativeTarget "kalimba" */;
+			buildPhases = (
+				4934A23B1E00496C00F37312 /* Sources */,
+				4934A23C1E00496C00F37312 /* Frameworks */,
+				4934A23D1E00496C00F37312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kalimba;
+			productName = kalimba;
+			productReference = 4934A23F1E00496C00F37312 /* kalimba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4934A2521E00496D00F37312 /* kalimbaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4934A26A1E00496D00F37312 /* Build configuration list for PBXNativeTarget "kalimbaTests" */;
+			buildPhases = (
+				4934A24F1E00496D00F37312 /* Sources */,
+				4934A2501E00496D00F37312 /* Frameworks */,
+				4934A2511E00496D00F37312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4934A2551E00496D00F37312 /* PBXTargetDependency */,
+			);
+			name = kalimbaTests;
+			productName = kalimbaTests;
+			productReference = 4934A2531E00496D00F37312 /* kalimbaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4934A25D1E00496D00F37312 /* kalimbaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4934A26D1E00496D00F37312 /* Build configuration list for PBXNativeTarget "kalimbaUITests" */;
+			buildPhases = (
+				4934A25A1E00496D00F37312 /* Sources */,
+				4934A25B1E00496D00F37312 /* Frameworks */,
+				4934A25C1E00496D00F37312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4934A2601E00496D00F37312 /* PBXTargetDependency */,
+			);
+			name = kalimbaUITests;
+			productName = kalimbaUITests;
+			productReference = 4934A25E1E00496D00F37312 /* kalimbaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4934A2371E00496C00F37312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Arthur Motelevicz";
+				TargetAttributes = {
+					4934A23E1E00496C00F37312 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KCSRYU5447;
+						ProvisioningStyle = Automatic;
+					};
+					4934A2521E00496D00F37312 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KCSRYU5447;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4934A23E1E00496C00F37312;
+					};
+					4934A25D1E00496D00F37312 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KCSRYU5447;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4934A23E1E00496C00F37312;
+					};
+				};
+			};
+			buildConfigurationList = 4934A23A1E00496C00F37312 /* Build configuration list for PBXProject "kalimba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4934A2361E00496C00F37312;
+			productRefGroup = 4934A2401E00496C00F37312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4934A23E1E00496C00F37312 /* kalimba */,
+				4934A2521E00496D00F37312 /* kalimbaTests */,
+				4934A25D1E00496D00F37312 /* kalimbaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4934A23D1E00496C00F37312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934A24D1E00496C00F37312 /* LaunchScreen.storyboard in Resources */,
+				4934A24A1E00496C00F37312 /* Assets.xcassets in Resources */,
+				4934A2481E00496C00F37312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934A2511E00496D00F37312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934A25C1E00496D00F37312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4934A23B1E00496C00F37312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934A2451E00496C00F37312 /* ViewController.swift in Sources */,
+				4934A2431E00496C00F37312 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934A24F1E00496D00F37312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934A2581E00496D00F37312 /* kalimbaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934A25A1E00496D00F37312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934A2631E00496D00F37312 /* kalimbaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4934A2551E00496D00F37312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4934A23E1E00496C00F37312 /* kalimba */;
+			targetProxy = 4934A2541E00496D00F37312 /* PBXContainerItemProxy */;
+		};
+		4934A2601E00496D00F37312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4934A23E1E00496C00F37312 /* kalimba */;
+			targetProxy = 4934A25F1E00496D00F37312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4934A2461E00496C00F37312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4934A2471E00496C00F37312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4934A24B1E00496C00F37312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4934A24C1E00496C00F37312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4934A2651E00496D00F37312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4934A2661E00496D00F37312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4934A2681E00496D00F37312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KCSRYU5447;
+				INFOPLIST_FILE = kalimba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opalastudios.kalimba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4934A2691E00496D00F37312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KCSRYU5447;
+				INFOPLIST_FILE = kalimba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opalastudios.kalimba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4934A26B1E00496D00F37312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KCSRYU5447;
+				INFOPLIST_FILE = kalimbaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opalastudios.kalimbaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalimba.app/kalimba";
+			};
+			name = Debug;
+		};
+		4934A26C1E00496D00F37312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KCSRYU5447;
+				INFOPLIST_FILE = kalimbaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opalastudios.kalimbaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalimba.app/kalimba";
+			};
+			name = Release;
+		};
+		4934A26E1E00496D00F37312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KCSRYU5447;
+				INFOPLIST_FILE = kalimbaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opalastudios.kalimbaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kalimba;
+			};
+			name = Debug;
+		};
+		4934A26F1E00496D00F37312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KCSRYU5447;
+				INFOPLIST_FILE = kalimbaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opalastudios.kalimbaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kalimba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4934A23A1E00496C00F37312 /* Build configuration list for PBXProject "kalimba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934A2651E00496D00F37312 /* Debug */,
+				4934A2661E00496D00F37312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4934A2671E00496D00F37312 /* Build configuration list for PBXNativeTarget "kalimba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934A2681E00496D00F37312 /* Debug */,
+				4934A2691E00496D00F37312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4934A26A1E00496D00F37312 /* Build configuration list for PBXNativeTarget "kalimbaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934A26B1E00496D00F37312 /* Debug */,
+				4934A26C1E00496D00F37312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4934A26D1E00496D00F37312 /* Build configuration list for PBXNativeTarget "kalimbaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934A26E1E00496D00F37312 /* Debug */,
+				4934A26F1E00496D00F37312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4934A2371E00496C00F37312 /* Project object */;
+}
