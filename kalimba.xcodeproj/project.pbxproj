@@ -14,6 +14,9 @@
 		4934A24D1E00496C00F37312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4934A24B1E00496C00F37312 /* LaunchScreen.storyboard */; };
 		4934A2581E00496D00F37312 /* kalimbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2571E00496D00F37312 /* kalimbaTests.swift */; };
 		4934A2631E00496D00F37312 /* kalimbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2621E00496D00F37312 /* kalimbaUITests.swift */; };
+		4934A2711E004AEC00F37312 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934A2701E004AEC00F37312 /* Instrument.swift */; };
+		4934A2731E004B2000F37312 /* kalimba.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 4934A2721E004B2000F37312 /* kalimba.aupreset */; };
+		4934A2751E004BD000F37312 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 4934A2741E004BD000F37312 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4934A25E1E00496D00F37312 /* kalimbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalimbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4934A2621E00496D00F37312 /* kalimbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalimbaUITests.swift; sourceTree = "<group>"; };
 		4934A2641E00496D00F37312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4934A2701E004AEC00F37312 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		4934A2721E004B2000F37312 /* kalimba.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kalimba.aupreset; sourceTree = "<group>"; };
+		4934A2741E004BD000F37312 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		4934A2411E00496C00F37312 /* kalimba */ = {
 			isa = PBXGroup;
 			children = (
+				4934A2741E004BD000F37312 /* Sounds */,
 				4934A2421E00496C00F37312 /* AppDelegate.swift */,
 				4934A2441E00496C00F37312 /* ViewController.swift */,
+				4934A2701E004AEC00F37312 /* Instrument.swift */,
+				4934A2721E004B2000F37312 /* kalimba.aupreset */,
 				4934A2461E00496C00F37312 /* Main.storyboard */,
 				4934A2491E00496C00F37312 /* Assets.xcassets */,
 				4934A24B1E00496C00F37312 /* LaunchScreen.storyboard */,
@@ -235,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4934A2751E004BD000F37312 /* Sounds in Resources */,
+				4934A2731E004B2000F37312 /* kalimba.aupreset in Resources */,
 				4934A24D1E00496C00F37312 /* LaunchScreen.storyboard in Resources */,
 				4934A24A1E00496C00F37312 /* Assets.xcassets in Resources */,
 				4934A2481E00496C00F37312 /* Main.storyboard in Resources */,
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4934A2451E00496C00F37312 /* ViewController.swift in Sources */,
+				4934A2711E004AEC00F37312 /* Instrument.swift in Sources */,
 				4934A2431E00496C00F37312 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

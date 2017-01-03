@@ -9,15 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let inst = Instrument(nome: "kalimba")
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        for subv in self.view.subviews{
+    
+            if subv.isKind(of: UIButton.classForCoder()){
+                let bt = subv as! UIButton
+                bt.addTarget(self, action: #selector(play), for: .touchDown)
+                bt.layer.borderWidth = 1.5
+                bt.layer.borderColor = UIColor.black.cgColor
+            }
+            
+        }
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func play(_ sender:Any){
+        
+        let bt = sender as! UIButton
+        
+        inst.playNoteOn(UInt32(bt.tag), velocity: 127)
+        
     }
 
 
